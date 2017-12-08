@@ -1,0 +1,1 @@
+@ildasm.exe "/out=%~dpn1.il" "%~dpnx1"

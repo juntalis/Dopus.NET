@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Third Party", "Third Party", "{636C91A2-CA3D-47D8-B189-B1B59E6450FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dopus SDK", "Dopus SDK", "{8CE0ECDB-8E68-4D48-9233-DDA96030FCD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Files", "Header Files", "{1B445C49-6088-4EF4-BF6A-38EBA2A379EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dopus", "dopus", "{03E382EA-4C23-462E-8764-EDEDA00C90B2}"
+	ProjectSection(SolutionItems) = preProject
+		thirdparty\dopus\include\dopus\support.h = thirdparty\dopus\include\dopus\support.h
+		thirdparty\dopus\include\dopus\vfs.h = thirdparty\dopus\include\dopus\vfs.h
+		thirdparty\dopus\include\dopus\viewer.h = thirdparty\dopus\include\dopus\viewer.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{C9D34822-81E7-4BBF-ACD7-6F71C81281EE}"
+	ProjectSection(SolutionItems) = preProject
+		thirdparty\dopus\doc\word\Plugin Support API SDK.doc = thirdparty\dopus\doc\word\Plugin Support API SDK.doc
+		thirdparty\dopus\doc\pdf\Plugin Support API SDK.pdf = thirdparty\dopus\doc\pdf\Plugin Support API SDK.pdf
+		thirdparty\dopus\doc\word\VFS Plugin SDK.doc = thirdparty\dopus\doc\word\VFS Plugin SDK.doc
+		thirdparty\dopus\doc\pdf\VFS Plugin SDK.pdf = thirdparty\dopus\doc\pdf\VFS Plugin SDK.pdf
+		thirdparty\dopus\doc\word\Viewer Plugin SDK.doc = thirdparty\dopus\doc\word\Viewer Plugin SDK.doc
+		thirdparty\dopus\doc\pdf\Viewer Plugin SDK.pdf = thirdparty\dopus\doc\pdf\Viewer Plugin SDK.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{89E0C1B6-CA31-487D-BCB6-2E33117EFF4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viewer", "Viewer", "{3680E9E9-C9AA-4D74-BB35-1C8066933EB4}"
+	ProjectSection(SolutionItems) = preProject
+		thirdparty\dopus\examples\targa_sample_viewer_plugin\resource.h = thirdparty\dopus\examples\targa_sample_viewer_plugin\resource.h
+		thirdparty\dopus\examples\targa_sample_viewer_plugin\targa.cpp = thirdparty\dopus\examples\targa_sample_viewer_plugin\targa.cpp
+		thirdparty\dopus\examples\targa_sample_viewer_plugin\targa.h = thirdparty\dopus\examples\targa_sample_viewer_plugin\targa.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VFS", "VFS", "{85826637-B496-4F37-AFE3-EB36A45F57BE}"
+	ProjectSection(SolutionItems) = preProject
+		thirdparty\dopus\examples\rar_sample_vfs_plugin\rar.cpp = thirdparty\dopus\examples\rar_sample_vfs_plugin\rar.cpp
+		thirdparty\dopus\examples\rar_sample_vfs_plugin\rar.h = thirdparty\dopus\examples\rar_sample_vfs_plugin\rar.h
+		thirdparty\dopus\examples\rar_sample_vfs_plugin\resource.h = thirdparty\dopus\examples\rar_sample_vfs_plugin\resource.h
+		thirdparty\dopus\examples\rar_sample_vfs_plugin\unrar.h = thirdparty\dopus\examples\rar_sample_vfs_plugin\unrar.h
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dopus", "Dopus\Dopus.csproj", "{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Utilities", "Build Utilities", "{FBBB1E79-3B57-4031-9D53-D0D233C8441C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|Win32.ActiveCfg = Debug|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|x64.ActiveCfg = Debug|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|x64.Build.0 = Debug|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|x86.ActiveCfg = Debug|x86
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Debug|x86.Build.0 = Debug|x86
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|Mixed Platforms.Build.0 = Release|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|Win32.ActiveCfg = Release|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|x64.ActiveCfg = Release|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|x64.Build.0 = Release|x64
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|x86.ActiveCfg = Release|x86
+		{1A9130EC-82B0-4D76-8668-A80A46B1B7F2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CE0ECDB-8E68-4D48-9233-DDA96030FCD2} = {636C91A2-CA3D-47D8-B189-B1B59E6450FC}
+		{1B445C49-6088-4EF4-BF6A-38EBA2A379EA} = {8CE0ECDB-8E68-4D48-9233-DDA96030FCD2}
+		{C9D34822-81E7-4BBF-ACD7-6F71C81281EE} = {8CE0ECDB-8E68-4D48-9233-DDA96030FCD2}
+		{89E0C1B6-CA31-487D-BCB6-2E33117EFF4E} = {8CE0ECDB-8E68-4D48-9233-DDA96030FCD2}
+		{03E382EA-4C23-462E-8764-EDEDA00C90B2} = {1B445C49-6088-4EF4-BF6A-38EBA2A379EA}
+		{3680E9E9-C9AA-4D74-BB35-1C8066933EB4} = {89E0C1B6-CA31-487D-BCB6-2E33117EFF4E}
+		{85826637-B496-4F37-AFE3-EB36A45F57BE} = {89E0C1B6-CA31-487D-BCB6-2E33117EFF4E}
+	EndGlobalSection
+EndGlobal
